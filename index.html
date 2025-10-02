@@ -9,20 +9,28 @@
 </head>
 <body>
     <div class="main">
-        <p>this is just of text</p>
         <h1>My Library</h1>
-        <p>This is a project from <a href="https://www.theodinproject.com/" target="_blank">The Odin Project</a>, where I am learning how to make a librarly
-            using Object Constructors and also simple table format.
+        <p>This is a project from <a href="https://www.theodinproject.com/" target="_blank">The Odin Project</a>, where I am learning how to make a library
+            using <i>Object Constructors</i> and also simple <i>table format</i>.
         </p>
         <p>Please view the Github Repo of this project over 
         <a href="https://github.com/Avinashlimbu/library" target="_blank">here</a>.</p>
     <div class="form">
         <form>
-            
+            <label for="book">Book</label>
+            <input type="text" id="book" name="book" value="enter book name">
+            <label for="author">Author</label>
+            <input type="text" id="author" name="author" value="enter author name">
+            <label for="status">Status</label>
+            <select id="status" name="Status">
+                <option value="Read">Read</option>
+                <option value="Not Read">Not Read</option>
+            </select>
+            <br><br>
+            <input type="submit" value="Submit">
         </form>
     </div>
      
-
 
         <footer>
             <small>Library Project by Avi</small>
